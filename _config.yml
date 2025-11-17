@@ -114,6 +114,7 @@ content:
       ![](images/Render_1.gif)
       ![](images/Render_2.jpg)
       ![](images/Render_3.jpg)
+      ![](images/Render_4.jpg)
   - title: Experience
     layout: list
     content:
@@ -158,7 +159,10 @@ content:
           Hair and cloth simulation.
 
           ![](images/YJ.gif)
-
+  - title: Scripts
+    layout: text
+    content: |
+      ![](images/SEED_Poster.jpg)
   - title: Education
     layout: list
     content:
