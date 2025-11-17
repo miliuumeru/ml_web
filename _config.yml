@@ -80,9 +80,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       ![](images/SEED_Poster.jpg)
 
-      Watch this 6-minutes video on: [YouTube link](https://youtu.be/9jc6oblx0aY)
-
-      or on: [Vimeo link](https://vimeo.com/1137545512)
+      Watch this 6-minutes video on: [YouTube link](https://youtu.be/9jc6oblx0aY) or on: [Vimeo link](https://vimeo.com/1137545512)
 
       Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
 
@@ -95,7 +93,16 @@ content:
     layout: list
     content:
       - layout: left
-        title: Ubisoft Shanghai
+        title: MIHOYO
+        sub_title: Animator
+        caption: 2025.4 — 2025.11
+        link: https://www.mihoyo.com/
+        quote: >
+          miHoYo opened its doors in 2012 and has delivered globally recognized IPs such as Genshin Impact®, Honkai Impact 3rd®, Honkai: Star Rail®, and Zenless Zone Zero®.
+        description: |
+          3D Character facial expression production.
+      - layout: left
+        title: UBISOFT SHANGHAI
         sub_title: Junior Rigger
         caption: 2023.8 — 2025.4
         link: https://www.ubisoft.com/en-us/company/careers/locations/shanghai
@@ -110,6 +117,17 @@ content:
 
           ![](images/UBI_1.gif)
           ![](images/UBI_2.gif)
+      - layout: left
+        title: HYPERGRYPH
+        sub_title: Intern CFX
+        caption: 2022.6 —​ 2022.12
+        link: https://www.hypergryph.com/
+        quote: >
+          Hypergryph was founded in 2017 and has become a leading creative force in the Chinese game industry, known for developing major titles such as Arknights®, Ex Astris®, and POPUCOM®.
+        description: |
+          Hair and cloth simulation.
+
+          ![](images/YJ.gif)
 
   - title: Education
     layout: list
