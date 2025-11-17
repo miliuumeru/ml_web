@@ -78,45 +78,55 @@ content:
   - title: Personal Animation <SEED>
     layout: text
     content: | # this will include new lines to allow paragraphs
-      [YouTube](https://youtu.be/9jc6oblx0aY)
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      ![](images/SEED_Poster.jpg)
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Watch this 6-minutes video on: [YouTube link](https://youtu.be/9jc6oblx0aY)
+
+      or on: [Vimeo link](https://vimeo.com/1137545512)
+
+      Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+
+      **Preview clip**
 
       ![](images/SEED_1.gif)
-      ![](/images/SEED_2.gif)
+      ![](images/SEED_2.gif)
       ![](images/SEED_3.gif)
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Ubisoft Shanghai
+        sub_title: Junior Rigger
+        caption: 2023.8 — 2025.4
+        link: https://www.ubisoft.com/en-us/company/careers/locations/shanghai
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Ubisoft Shanghai studio opened its door in 1996 and has worked on major Ubisoft brands such as Just Dance®, Far Cry®, The Crew®, Assassin’s Creed®, Might & Magic® and Tom Clancy’s Splinter Cell®.
+        description: |
+          Character, costume, and gear rigging.
+
+          Animation system implementation in-engine.
+
+          Pipeline tools coding.
+
+          ![](images/UBI_1.gif)
+          ![](images/UBI_2.gif)
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+      - layout: left
+        title: Tongji University
+        sub_title: Animation (BA)
+        caption: 2019 - 2023
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          Completed the Animation program at Tongji University with a GPA of 4.79/5, with coursework spanning acting, 2D and 3D animation, modeling, rendering, compositing, and sound design.
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+    content: |
+      A bassist
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-      ![](images/SEED_1.gif)
-      ![](/images/SEED_2.gif)
       
 # Footer
 footer_show_references: true
