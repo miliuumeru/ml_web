@@ -55,34 +55,37 @@ about_content: | # this will include new lines to allow paragraphs
   Half artist, half coder, obsessed with making something fun, impressive, and alive.
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Personal Animation <SEED>
-        # link: https://youtu.be/9jc6oblx0aY
-        # link_text: Watch it on YouTube
-        additional_links:
-          - title:  YouTube page for project
-            icon: fab fa-youtube
-            url: https://youtu.be/9jc6oblx0aY
-          - title:  Vimeo page for project
-            icon: fab fa-vimeo
-            url: https://vimeo.com/1137545512
-        quote: |
-          ww
-        description: | # this will include new lines to allow paragraphs
-          Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
-      - title: A Little More About Me
-        layout: text
-        content: | # this will include new lines to allow paragraphs
-          This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  # - title: Projects
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
+  #                     # other value (or no value) means no border will be displayed
+  #       title: Personal Animation <SEED>
+  #       # link: https://youtu.be/9jc6oblx0aY
+  #       # link_text: Watch it on YouTube
+  #       additional_links:
+  #         - title:  YouTube page for project
+  #           icon: fab fa-youtube
+  #           url: https://youtu.be/9jc6oblx0aY
+  #         - title:  Vimeo page for project
+  #           icon: fab fa-vimeo
+  #           url: https://vimeo.com/1137545512
+  #       quote: |
+  #         ww
+  #       description: | # this will include new lines to allow paragraphs
+  #         Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+  - title: Personal Animation <SEED>
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      [YouTube](https://youtu.be/9jc6oblx0aY)
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-          Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-          ![](images/SEED_1.gif)
-          ![](/images/SEED_2.gif)
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+      ![](images/SEED_1.gif)
+      ![](/images/SEED_2.gif)
+      ![](images/SEED_3.gif)
   - title: Experience
     layout: list
     content:
