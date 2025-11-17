@@ -71,12 +71,12 @@ content:
           - title:  Vimeo page for project
             icon: fab fa-vimeo
             url: https://vimeo.com/1137545512
-        image: |
-          ![alt text](/images/SEED_1.gif "SEED")
+        quote: |
+          ![alt text](/images/landscape-trees.jpg "SEED")
           ![alt text](/images/SEED_2.gif "SEED")
           ![alt text](/images/SEED_3.gif "SEED")
         description: | # this will include new lines to allow paragraphs
-          ![](/images/SEED_1.gif)
+          ![](/images/landscape-trees.jpg)
           ![](/images/SEED_2.gif)
           ![](/images/SEED_3.gif)
           Created in Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
