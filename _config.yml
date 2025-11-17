@@ -55,8 +55,8 @@ about_content: | # this will include new lines to allow paragraphs
   Half artist, half coder, obsessed with making something fun, impressive, and alive.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -75,6 +75,14 @@ content:
           ww
         description: | # this will include new lines to allow paragraphs
           Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+      - title: A Little More About Me
+        layout: text
+        content: | # this will include new lines to allow paragraphs
+          This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+          Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          ![](images/SEED_1.gif)
+          ![](/images/SEED_2.gif)
   - title: Experience
     layout: list
     content:
@@ -105,7 +113,7 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
       ![](images/SEED_1.gif)
-      ![](/images/SEED_1.gif)
+      ![](/images/SEED_2.gif)
       
 # Footer
 footer_show_references: true
