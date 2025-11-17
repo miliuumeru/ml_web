@@ -72,9 +72,9 @@ content:
             icon: fab fa-vimeo
             url: https://vimeo.com/1137545512
         quote: |
-          ![](images/SEED_1.gif)
-          ![](images/SEED_2.gif)
-          ![](images/SEED_3.gif)
+          - Images ![alt text](/images/SEED_1.gif "SEED")
+          - Images ![alt text](/images/SEED_2.gif "SEED")
+          - Images ![alt text](/images/SEED_3.gif "SEED")
         description: | # this will include new lines to allow paragraphs
           Created in Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
   - title: Experience
