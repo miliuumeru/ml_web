@@ -111,7 +111,7 @@ content:
     content: |
       ![](images/Render_Poster.jpg)
 
-      ![](images/Render_1.mp4)
+      ![](images/Render_1.gif)
       ![](images/Render_2.jpg)
       ![](images/Render_3.jpg)
   - title: Experience
@@ -126,6 +126,9 @@ content:
           miHoYo opened its doors in 2012 and has delivered globally recognized IPs such as Genshin Impact®, Honkai Impact 3rd®, Honkai: Star Rail®, and Zenless Zone Zero®.
         description: |
           3D Character facial expression production.
+
+          ![](images/PlaceHolder.jpg)
+
       - layout: left
         title: UBISOFT SHANGHAI
         sub_title: Junior Rigger
@@ -134,14 +137,16 @@ content:
         quote: >
           Ubisoft Shanghai studio opened its door in 1996 and has worked on major Ubisoft brands such as Just Dance®, Far Cry®, The Crew®, Assassin’s Creed®, Might & Magic® and Tom Clancy’s Splinter Cell®.
         description: |
-          Character, costume, and gear rigging.
-
+          Animal rigging,
           Animation system implementation in-engine.
 
-          Pipeline tools coding.
-
           ![](images/UBI_1.gif)
+
+          Character, costume, and gear rigging.
+
           ![](images/UBI_2.gif)
+
+          Pipeline tools coding.
       - layout: left
         title: HYPERGRYPH
         sub_title: Intern CFX
