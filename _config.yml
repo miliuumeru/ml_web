@@ -55,7 +55,6 @@ about_content: | # this will include new lines to allow paragraphs
   Half artist, half coder, obsessed with making something fun, impressive, and alive.
 
 content:
-  - title: Skills
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -73,21 +72,13 @@ content:
             icon: fab fa-vimeo
             url: https://vimeo.com/1137545512
         quote: |
-          ![alt text](/images/landscape-trees.jpg "SEED")
-          ![alt text](/images/SEED_2.gif "SEED")
-          ![alt text](/images/SEED_3.gif "SEED")
-        about_profile_image: images/Avatar.png
-        image: images/Avatar.png
-        image: /images/landscape-trees.jpg
+          ww
         description: | # this will include new lines to allow paragraphs
-          ![](/images/landscape-trees.jpg)
-          ![](/images/SEED_2.gif)
-          ![](/images/SEED_3.gif)
           Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: right
         title: Company name
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
@@ -113,9 +104,9 @@ content:
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-      ![](/images/landscape-trees.jpg)
-    image: images/Avatar.png
-    image: /images/landscape-trees.jpg
+      ![](images/SEED_1.gif)
+      ![](/images/SEED_1.gif)
+      
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
