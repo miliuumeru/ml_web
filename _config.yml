@@ -77,12 +77,13 @@ content:
   #         Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
   - title: Personal Animation <SEED>
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       ![](images/SEED_Poster.jpg)
 
-      Watch this 6-minutes video on: [YouTube link](https://youtu.be/9jc6oblx0aY) or on: [Vimeo link](https://vimeo.com/1137545512)
+      Watch this 6-minute video on [YouTube link](https://youtu.be/9jc6oblx0aY) or [Vimeo link](https://vimeo.com/1137545512)
 
       Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+
 
       **Preview clip**
       ![](images/SEED_7.jpg)
@@ -96,6 +97,15 @@ content:
       ![](images/SEED_1.gif)
       ![](images/SEED_2.gif)
       ![](images/SEED_3.gif)
+  - title: 3D Printing
+    layout: text
+    content: |
+      ![](images/Printing_Poster.jpg)
+
+      Complete end-to-end production: modeling, rendering, 3D printing, and hand-painting.
+
+      **Preview clip**
+      ![](images/Printing.jpg)
   - title: Experience
     layout: list
     content:
