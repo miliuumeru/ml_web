@@ -98,6 +98,15 @@ content:
       ![](images/SEED_1.gif)
       ![](images/SEED_2.gif)
       ![](images/SEED_3.gif)
+  - title: Scripts
+    layout: text
+    content: |
+      ![](images/Pet_Poster.jpg)
+
+      This is a fully Python-based desktop pet with no external game engine. UI, animation system, and configuration framework are custom-designed, allowing users to customize sleep time, meal time, and birthday greetings.
+
+      ![](images/Pet.gif)
+      ![](images/Pet_Script.jpg)
   - title: 3D Printing
     layout: text
     content: |
