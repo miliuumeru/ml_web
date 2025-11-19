@@ -103,6 +103,8 @@ content:
     content: |
       ![](images/Pet_Poster.jpg)
 
+      Source code on [GitHub](https://github.com/miliuumeru/ml_desktop_pet)
+
       This is a fully Python-based desktop pet with no external game engine. UI, animation system, and configuration framework are custom-designed, allowing users to customize sleep time, meal time, and birthday greetings.
 
       ![](images/Pet.gif)
@@ -186,7 +188,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-      A bassist
+      I love:
+        Rock n' roll, bass guitar (RHCP hell yes!!).
+        Games.
+        Fitness training, outdoor-activities.
+        Sudoku.
 
       
 # Footer
