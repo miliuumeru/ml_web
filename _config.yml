@@ -123,6 +123,7 @@ content:
       Auto hair-binding rigging tool for Maya.
 
       ![](images/YJ_2.gif)
+      ![](images/Hair_Script.jpg)
   - title: 3D Printing
     layout: text
     content: |
@@ -199,10 +200,10 @@ content:
     layout: text
     content: |
       I love:
-        Rock n' roll, bass guitar (RHCP hell yes!!).
-        Games.
-        Fitness training, outdoor-activities.
-        Sudoku.
+        - Rock n' roll, bass guitar (RHCP hell yes!!).
+        - Games.
+        - Fitness training, outdoor-activities.
+        - Sudoku.
 
       
 # Footer
