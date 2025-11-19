@@ -51,8 +51,14 @@ linkedin_username: huanhuan chen
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Avatar.png
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   Half artist, half coder, obsessed with making something fun, impressive, and alive.
+
+  Skills:
+    - Game Engines: Unreal, Unity, Snowdrop (Ubisoft)
+    - 3D DCC: Maya, 3ds Max
+    - 2D DCC: Clip Studio Paint, Photoshop
+    - Programming: Python (advanced), Qt (working knowledge), Maya API (working knowledge), C++ (basic familiarity)
 
 content:
   # - title: Projects
@@ -80,7 +86,7 @@ content:
     content: |
       ![](images/SEED_Poster.jpg)
 
-      Watch this 6-minute video on [YouTube link](https://youtu.be/9jc6oblx0aY) or [Vimeo link](https://vimeo.com/1137545512)
+      Watch this 6-minute video on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
 
       Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
 
@@ -103,7 +109,7 @@ content:
     content: |
       ![](images/Pet_Poster.jpg)
 
-      Source code on [GitHub](https://github.com/miliuumeru/ml_desktop_pet)
+      Source code on [**GitHub**](https://github.com/miliuumeru/ml_desktop_pet)
 
       This is a fully Python-based desktop pet with no external game engine. UI, animation system, and configuration framework are custom-designed, allowing users to customize sleep time, meal time, and birthday greetings.
 
@@ -170,10 +176,10 @@ content:
           Hair and cloth simulation.
 
           ![](images/YJ.gif)
-  - title: Scripts
-    layout: text
-    content: |
-      ![](images/SEED_Poster.jpg)
+
+          Auto hair-binding rigging tool for Maya.
+
+          ![](images/YJ_2.gif)
   - title: Education
     layout: list
     content:
