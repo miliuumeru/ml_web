@@ -138,16 +138,18 @@ content:
 
       This is fully Python-based with no external game engine. 
       
-      I built designated UI, animation system, and configuration framework for it, allowing users to customize sleep time, meal time, and birthday greetings (which makes pet real).
-
 
       **Pet behaviours**
 
       ![](images/Pet.gif)
-      ![](images/Pet_Script.jpg)
 
 
       **Main code and animation state machine part**
+
+      I built designated UI, animation system, and configuration framework for it, allowing users to customize sleep time, meal time, and birthday greetings (which makes pet real).
+
+      ![](images/Pet_Script.jpg)
+
 
       ![](images/Hair_Poster.jpg)
 
@@ -155,22 +157,13 @@ content:
 
       An auto hair-binding rigging tool for Maya.
       The workflow breaks down into four core steps:
-        1. convert the hair’s poly meshes into curves (the curves must be generated along the mesh’s central axis rather than on its surface.);
-        2. rebuild those curves and generate joints along them;
-        3. implement a kinetic hair physics system;
-        4. skin the meshes to the joint chains.
+      1. Convert the hair’s poly meshes into curves (the curves must be generated along the mesh’s central axis rather than on its surface.);
+      2. Rebuild those curves and generate joints along them;
+      3. Implement a kinetic hair physics system;
+      4. Skin the meshes to the joint chains.
 
       ![](images/YJ_2.gif)
       ![](images/Hair_Script.jpg)
-  - title: 3D Printing
-    layout: text
-    content: |
-      ![](images/Printing_Poster.jpg)
-
-      This character comes from the Chinese novel 'Shui Hu Zhuan' and is one of my favorites.
-      Complete end-to-end production: modeling, rendering, 3D printing, and hand-painting.
-
-      ![](images/Printing.jpg)
   - title: Modeling & Rendering
     layout: text
     content: |
@@ -180,6 +173,15 @@ content:
       ![](images/Render_2.jpg)
       ![](images/Render_3.jpg)
       ![](images/Render_4.jpg)
+  - title: 3D Printing
+    layout: text
+    content: |
+      ![](images/Printing_Poster.jpg)
+
+      This character comes from the Chinese novel 'Shui Hu Zhuan' and is one of my favorites.
+      Complete end-to-end production: modeling, rendering, 3D printing, and hand-painting.
+
+      ![](images/Printing.jpg)
   - title: Experience
     layout: list
     content:
@@ -238,12 +240,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-      I love:
-        - Rock n' roll, bass guitar (RHCP hell yes!!).
-        - Games.
-        - Fitness training, outdoor-activities.
-        - Sudoku.
-
+      **My interests?**
+        – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
+        – Games (RPG and shooting).
+        – Strength training and anything that gets me outdoors.
+        – Sudoku.
       
 # Footer
 footer_show_references: true
