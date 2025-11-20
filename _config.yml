@@ -88,19 +88,41 @@ content:
 
       Watch this 6-minute video on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
 
-      Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+
+      This personal animation is created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
 
 
-      **Preview clip**
+      **2D sketches**
+
+      At first I set out to tell a story about a creature that feels familiar yet subtly unusual—someone who longs to fly. 
+      Then I identified the protagonist: an ant, arguably the least likely creature to  reach the sky.
+      I set up a backdrop with blue-tree forest, the protagonist’s walnut house, and a snapshot of his daily life within this imagined world.
 
       ![](images/SEED_4.jpg)
       ![](images/SEED_5.jpg)
       ![](images/SEED_6.jpg)
 
+
+      **3D modelling and rigging**
+
+      The next phase is asset producing, the characters, props, and scenes, and driving them into full rigging.
+
       ![](images/SEED_7.jpg)
       ![](images/SEED_8.jpg)
       ![](images/SEED_9.jpg)
-   
+
+
+      **Animation and compositing**
+
+      This phase focuses on animation, simulation, and compositing.
+
+      ![](images/SEED_10.gif)
+      ![](images/SEED_11.gif)
+      ![](images/SEED_12.gif)
+
+
+      **Final work clips**
+
       ![](images/SEED_1.gif)
       ![](images/SEED_2.gif)
       ![](images/SEED_3.gif)
@@ -111,16 +133,32 @@ content:
 
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_desktop_pet)
 
-      This is a fully Python-based desktop pet with no external game engine. UI, animation system, and configuration framework are custom-designed, allowing users to customize sleep time, meal time, and birthday greetings.
+
+      I’m a fan of pixel art, so I built a desktop pet based on my avatar to keep me company.
+
+      This is fully Python-based with no external game engine. 
+      
+      I built designated UI, animation system, and configuration framework for it, allowing users to customize sleep time, meal time, and birthday greetings (which makes pet real).
+
+
+      **Pet behaviours**
 
       ![](images/Pet.gif)
       ![](images/Pet_Script.jpg)
+
+
+      **Main code and animation state machine part**
 
       ![](images/Hair_Poster.jpg)
 
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_hair_rigging)
 
-      Auto hair-binding rigging tool for Maya.
+      An auto hair-binding rigging tool for Maya.
+      The workflow breaks down into four core steps:
+        1. convert the hair’s poly meshes into curves (the curves must be generated along the mesh’s central axis rather than on its surface.);
+        2. rebuild those curves and generate joints along them;
+        3. implement a kinetic hair physics system;
+        4. skin the meshes to the joint chains.
 
       ![](images/YJ_2.gif)
       ![](images/Hair_Script.jpg)
@@ -129,6 +167,7 @@ content:
     content: |
       ![](images/Printing_Poster.jpg)
 
+      This character comes from the Chinese novel 'Shui Hu Zhuan' and is one of my favorites.
       Complete end-to-end production: modeling, rendering, 3D printing, and hand-painting.
 
       ![](images/Printing.jpg)
