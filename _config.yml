@@ -162,17 +162,21 @@ content:
       3. Implement a kinetic hair physics system;
       4. Skin the meshes to the joint chains.
 
+
+      **Workflow and main code**
+
       ![](images/YJ_2.gif)
       ![](images/Hair_Script.jpg)
   - title: Modeling & Rendering
     layout: text
     content: |
-      ![](images/Render_Poster.jpg)
+      ![](images/Punk_Poster.jpg)
 
-      ![](images/Render_1.gif)
-      ![](images/Render_2.jpg)
-      ![](images/Render_3.jpg)
-      ![](images/Render_4.jpg)
+      This is a world-building concept set in a fantastical post-apocalyptic landscape. In this world, living creatures scavenge mechanical remnants scattered across the ruined world and graft them onto their own bodies. Over time, this behavior triggers species-wide mutation.
+
+      # Creature concept
+
+      ![](images/Biopunk_1.jpg)
   - title: 3D Printing
     layout: text
     content: |
