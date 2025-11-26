@@ -3,7 +3,7 @@ repository: ml_web
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Huanhuan (Milian) Chen
@@ -86,19 +86,16 @@ content:
     content: |
       ![](images/SEED_Poster.jpg)
 
-      ___
-      
       #### **Overview**
 
       It's a stylized 6-minute animation.
 
       Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
-      [![](http://img.youtube.com/vi/9jc6oblx0aY/0.jpg)](http://www.youtube.com/watch?v=9jc6oblx0aY)
 
       Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
 
-      #### Concept & Storyboard
+      #### **Concept & Storyboard**
 
       The project originated from a simple question: **how does an unlikely creature pursue flight?**
 
@@ -118,7 +115,7 @@ content:
       ![](images/SEED_6.jpg)
 
 
-      #### 3D Modelling & Rigging
+      #### **3D Modelling & Rigging**
 
       Asset creation (characters, props, sets, etc) was executed end-to-end.
       Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
@@ -129,7 +126,7 @@ content:
 
       Custom characters **riggging** with clean deformation and utility modules.
 
-      Hand-painted stylized **textures**, inspired by Arcane.
+      Hand-painted stylized **textures**, inspired by __Arcane__.
 
 
       ![](images/SEED_7.jpg)
@@ -137,7 +134,7 @@ content:
       ![](images/SEED_9.jpg)
 
 
-      #### Animation & Compositing
+      #### **Animation & Compositing**
 
       Animation followed a disciplined production workflow:
 
@@ -156,7 +153,7 @@ content:
       ![](images/SEED_12.gif)
 
 
-      #### Final Clips
+      #### **Final Clips**
 
       Selected frames and shots demonstrate the full animation.
 
@@ -169,14 +166,14 @@ content:
     content: |
       ![](images/Pet_Poster.jpg)
 
-      #### Overview
+      #### **Overview**
 
       This desktop pet is fully Python-based with no external game engine.
 
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_desktop_pet)
       
 
-      #### Pet Behaviours
+      #### **Pet Behaviours**
 
       I designed and painted pixel animations: idle loops, interaction poses, expressions, and a set of behaviour variants.
 
@@ -194,7 +191,7 @@ content:
       ![](images/Pet.gif)
 
 
-      #### Core System & Animation State Machine
+      #### **Core System & Animation State Machine**
 
       Under the hood, the desktop pet runs on a custom framework that I engineered end-to-end:
 
@@ -212,14 +209,14 @@ content:
 
       ![](images/Hair_Poster.jpg)
 
-      #### Overview
+      #### **Overview**
 
       A Python-driven Kinematic hair-binding tool for Maya, designed to accelerate character production and remove repetitive manual setup.
       It converts polygonal hair meshes into animation-ready joint chains with physics support, enabling fast iteration and predictable deformation.
       
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_hair_rigging)
 
-      #### Workflow and main code
+      #### **Workflow and main code**
 
       The result is a production-ready solution that dramatically shortens rigging turnaround time while maintaining clean rig structure for animators.
 
@@ -241,13 +238,13 @@ content:
     content: |
       ![](images/Punk_Poster.jpg)
 
-      #### Overview
+      #### **Overview**
 
       This project explores a biopunk world-building concept set in a fantastical post-apocalyptic landscape. 
       In this universe, creatures survive by scavenging industrial remnants scattered across a ruined world and grafting them onto their own bodies. 
       Over generations, this behavior drives species-wide mutation and gives rise to hybrid biomechanical organisms.
 
-      #### Map concept
+      #### **Map concept**
 
       This world sits in a post-industrial contamination era.
       However, the pollution has been contained within a central floating island, restrained by a colossal ancient tree. 
@@ -257,7 +254,7 @@ content:
       ![](images/Biopunk_3.jpg)
 
 
-      #### Creature Concept(2D)
+      #### **Creature Concept(2D)**
 
       These organisms are not natural species, they are biomechanics.
       Primitive biological forms scavenge mechanical debris, fuse it into their bodies, and undergo mutation driven by toxic residue and incompatible components.
@@ -266,7 +263,7 @@ content:
       ![](images/Biopunk_2.jpg)
 
 
-      #### Creature Concept(3D)
+      #### **Creature Concept(3D)**
 
       The designs are further developed with ZBrush sculpting, rendering, and digital paint-over to explore material blending and functional detail.
 
@@ -276,7 +273,7 @@ content:
     content: |
       ![](images/Printing_Poster.jpg)
 
-      #### Overview
+      #### **Overview**
 
       This character is inspired by a book called Shui Hu Zhuan (Water Margin).
       The project covers a full end-to-end production pipeline: modeling, rendering, 3D printing, surface prep, and hand-painting.
@@ -298,7 +295,7 @@ content:
         description: |
           3D Character facial expression production.
 
-          ![](images/PlaceHolder.jpg)
+          ![](images/MI.gif)
 
       - layout: left
         title: UBISOFT SHANGHAI
@@ -345,10 +342,13 @@ content:
     content: |
       My interests?
 
-        – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
-        – Games (RPG and shooting).
-        – Strength training and anything that gets me outdoors.
-        – Sudoku.
+      – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
+
+      – Games (RPG and shooting).
+
+      – Strength training and anything that gets me outdoors.
+      
+      – Sudoku.
       
 # Footer
 footer_show_references: true
