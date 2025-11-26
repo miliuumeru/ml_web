@@ -6,7 +6,7 @@ repository: ml_web
 version: 2
 
 # Personal info
-name: Huanhuan (Milian) Chen
+name: Huanhuan(Milian) Chen
 # title: Your job title
 email: miliuumeru@gmail.com
 # email_title: Email (Email title override)
@@ -56,7 +56,7 @@ about_content: |
 
   Skills:
     - Game Engines: Unreal, Unity, Snowdrop(Ubisoft)
-    - 3D: Maya, 3ds Max
+    - 3D: Maya, 3Ds Max
     - 2D: Clip Studio Paint, Photoshop
     - Programming: Python, Qt, Maya API, C++(basic familiarity)
 
@@ -83,94 +83,84 @@ content:
   #         Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
   - title: Personal Animation <SEED>
     layout: text
-    content: 
-      - layout: text
-        content: |
-          ![](images/SEED_Poster.jpg)
+    content: |
+      ![](images/SEED_Poster.jpg)
 
-          #### **Overview**
+      #### **Overview**
 
-          It's a stylized 6-minute animation.
+      It's a stylized 6-minute animation.
 
-          Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
+      Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
 
-          Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
-
-      - layout: text
-        content: |
-
-          #### **Concept & Storyboard**
-
-          The project originated from a simple question: **how does an unlikely creature pursue flight?**
-
-          I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
-
-          Key points:
-
-          **Character** exploration through sketches and turnarounds.
-
-          **Storyboards** to lock pacing and camera logic.
-
-          **Environmental** design for the ant’s complete living world.
+      Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
 
-          ![](images/SEED_4.jpg)
-          ![](images/SEED_5.jpg)
-          ![](images/SEED_6.jpg)
+      #### **Concept & Storyboard**
 
-      - layout: text
-        content: |
+      The project originated from a simple question: **how does an unlikely creature pursue flight?**
 
-          #### **3D Modelling & Rigging**
+      I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
 
-          Asset creation (characters, props, sets, etc) was executed end-to-end.
-          Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
+      Key points:
 
-          Key points:
+      **Character** exploration through sketches and turnarounds.
 
-          **Modelling** pipeline for protagonist and secondary assets.
+      **Storyboards** to lock pacing and camera logic.
 
-          Custom characters **riggging** with clean deformation and utility modules.
-
-          Hand-painted stylized **textures**, inspired by __Arcane__.
+      **Environmental** design for the ant’s complete living world.
 
 
-          ![](images/SEED_7.jpg)
-          ![](images/SEED_8.jpg)
-          ![](images/SEED_9.jpg)
-
-      - layout: text
-        content: |
-
-          #### **Animation & Compositing**
-
-          Animation followed a disciplined production workflow:
-
-          **Layout** – establish blocking, staging, and camera paths.
-
-          **Blocking** – narrative beats, early body mechanics.
-
-          **Polish** – final motion, emotional refinement.
-
-          Simulation and FX elements were layered on top.
-          All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
+      ![](images/SEED_4.jpg)
+      ![](images/SEED_5.jpg)
+      ![](images/SEED_6.jpg)
 
 
-          ![](images/SEED_10.gif)
-          ![](images/SEED_11.gif)
-          ![](images/SEED_12.gif)
+      #### **3D Modelling & Rigging**
 
-      - layout: text
-        content: |
+      Asset creation (characters, props, sets, etc) was executed end-to-end.
+      Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
 
-          #### **Final Clips**
+      Key points:
 
-          Selected frames and shots demonstrate the full animation.
+      **Modelling** pipeline for protagonist and secondary assets.
+
+      Custom characters **riggging** with clean deformation and utility modules.
+
+      Hand-painted stylized **textures**, inspired by __Arcane__.
 
 
-          ![](images/SEED_1.gif)
-          ![](images/SEED_2.gif)
-          ![](images/SEED_3.gif)
+      ![](images/SEED_7.jpg)
+      ![](images/SEED_8.jpg)
+      ![](images/SEED_9.jpg)
+
+
+      #### **Animation & Compositing**
+
+      Animation followed a disciplined production workflow:
+
+      **Layout** – establish blocking, staging, and camera paths.
+
+      **Blocking** – narrative beats, early body mechanics.
+
+      **Polish** – final motion, emotional refinement.
+
+      Simulation and FX elements were layered on top.
+      All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
+
+
+      ![](images/SEED_10.gif)
+      ![](images/SEED_11.gif)
+      ![](images/SEED_12.gif)
+
+
+      #### **Final Clips**
+
+      Selected frames and shots demonstrate the full animation.
+
+
+      ![](images/SEED_1.gif)
+      ![](images/SEED_2.gif)
+      ![](images/SEED_3.gif)
   - title: Scripts
     layout: text
     content: |
