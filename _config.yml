@@ -3,7 +3,7 @@ repository: ml_web
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: Huanhuan (Milian) Chen
@@ -83,84 +83,94 @@ content:
   #         Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
   - title: Personal Animation <SEED>
     layout: text
-    content: |
-      ![](images/SEED_Poster.jpg)
+    content: 
+      - layout: text
+        content: |
+          ![](images/SEED_Poster.jpg)
 
-      #### **Overview**
+          #### **Overview**
 
-      It's a stylized 6-minute animation.
+          It's a stylized 6-minute animation.
 
-      Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
+          Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
 
-      Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
+          Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
+      - layout: text
+        content: |
 
-      #### **Concept & Storyboard**
+          #### **Concept & Storyboard**
 
-      The project originated from a simple question: **how does an unlikely creature pursue flight?**
+          The project originated from a simple question: **how does an unlikely creature pursue flight?**
 
-      I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
+          I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
 
-      Key points:
+          Key points:
 
-      **Character** exploration through sketches and turnarounds.
+          **Character** exploration through sketches and turnarounds.
 
-      **Storyboards** to lock pacing and camera logic.
+          **Storyboards** to lock pacing and camera logic.
 
-      **Environmental** design for the ant’s complete living world.
-
-
-      ![](images/SEED_4.jpg)
-      ![](images/SEED_5.jpg)
-      ![](images/SEED_6.jpg)
-
-
-      #### **3D Modelling & Rigging**
-
-      Asset creation (characters, props, sets, etc) was executed end-to-end.
-      Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
-
-      Key points:
-
-      **Modelling** pipeline for protagonist and secondary assets.
-
-      Custom characters **riggging** with clean deformation and utility modules.
-
-      Hand-painted stylized **textures**, inspired by __Arcane__.
+          **Environmental** design for the ant’s complete living world.
 
 
-      ![](images/SEED_7.jpg)
-      ![](images/SEED_8.jpg)
-      ![](images/SEED_9.jpg)
+          ![](images/SEED_4.jpg)
+          ![](images/SEED_5.jpg)
+          ![](images/SEED_6.jpg)
+
+      - layout: text
+        content: |
+
+          #### **3D Modelling & Rigging**
+
+          Asset creation (characters, props, sets, etc) was executed end-to-end.
+          Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
+
+          Key points:
+
+          **Modelling** pipeline for protagonist and secondary assets.
+
+          Custom characters **riggging** with clean deformation and utility modules.
+
+          Hand-painted stylized **textures**, inspired by __Arcane__.
 
 
-      #### **Animation & Compositing**
+          ![](images/SEED_7.jpg)
+          ![](images/SEED_8.jpg)
+          ![](images/SEED_9.jpg)
 
-      Animation followed a disciplined production workflow:
+      - layout: text
+        content: |
 
-      **Layout** – establish blocking, staging, and camera paths.
+          #### **Animation & Compositing**
 
-      **Blocking** – narrative beats, early body mechanics.
+          Animation followed a disciplined production workflow:
 
-      **Polish** – final motion, emotional refinement.
+          **Layout** – establish blocking, staging, and camera paths.
 
-      Simulation and FX elements were layered on top.
-      All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
+          **Blocking** – narrative beats, early body mechanics.
 
+          **Polish** – final motion, emotional refinement.
 
-      ![](images/SEED_10.gif)
-      ![](images/SEED_11.gif)
-      ![](images/SEED_12.gif)
-
-
-      #### **Final Clips**
-
-      Selected frames and shots demonstrate the full animation.
+          Simulation and FX elements were layered on top.
+          All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
 
 
-      ![](images/SEED_1.gif)
-      ![](images/SEED_2.gif)
-      ![](images/SEED_3.gif)
+          ![](images/SEED_10.gif)
+          ![](images/SEED_11.gif)
+          ![](images/SEED_12.gif)
+
+      - layout: text
+        content: |
+
+          #### **Final Clips**
+
+          Selected frames and shots demonstrate the full animation.
+
+
+          ![](images/SEED_1.gif)
+          ![](images/SEED_2.gif)
+          ![](images/SEED_3.gif)
   - title: Scripts
     layout: text
     content: |
