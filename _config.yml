@@ -86,42 +86,75 @@ content:
     content: |
       ![](images/SEED_Poster.jpg)
 
-      Watch this 6-minute video on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
+
+      ### Overview
+
+      It's a stylized 6-minute animation.
+
+      Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
+
+      Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
 
-      This personal animation is created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+      ### Concept & Storyboard
 
+      The project originated from a simple question: **how does an unlikely creature pursue flight?**
 
-      **2D sketches**
+      I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
 
-      At first I set out to tell a story about a creature that feels familiar yet subtly unusual—someone who longs to fly. 
-      Then I identified the protagonist: an ant, arguably the least likely creature to  reach the sky.
-      I set up a backdrop with blue-tree forest, the protagonist’s walnut house, and a snapshot of his daily life within this imagined world.
+      Key points:
+
+      **Character** exploration through sketches and turnarounds.
+
+      **Storyboards** to lock pacing and camera logic.
+
+      **Environmental** design for the ant’s complete living world.
+
 
       ![](images/SEED_4.jpg)
       ![](images/SEED_5.jpg)
       ![](images/SEED_6.jpg)
 
 
-      **3D modelling and rigging**
+      ### 3D Modelling & Rigging
 
-      The next phase is asset producing, the characters, props, and scenes, and driving them into full rigging.
+      Asset creation (characters, props, sets, etc) was executed end-to-end.
+      Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
+
+      Key points:
+
+      **Modelling** pipeline for protagonist and secondary assets.
+
+      Custom characters **riggging** with clean deformation and utility modules.
+
+      Hand-painted stylized **textures**, inspired by Arcane.
+
 
       ![](images/SEED_7.jpg)
       ![](images/SEED_8.jpg)
       ![](images/SEED_9.jpg)
 
 
-      **Animation and compositing**
+      ### Animation & Compositing
 
-      This phase focuses on animation, simulation, and compositing.
+      Animation followed a disciplined production workflow:
+      **Layout** – establish blocking, staging, and camera paths.
+      **Blocking** – narrative beats, early body mechanics.
+      **Polish** – final motion, emotional refinement.
+
+      Simulation and FX elements were layered on top.
+      All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
+
 
       ![](images/SEED_10.gif)
       ![](images/SEED_11.gif)
       ![](images/SEED_12.gif)
 
 
-      **Final work clips**
+      ### Final Clips
+
+      Selected frames and shots demonstrate the full animation.
+
 
       ![](images/SEED_1.gif)
       ![](images/SEED_2.gif)
@@ -131,39 +164,58 @@ content:
     content: |
       ![](images/Pet_Poster.jpg)
 
+      ### Overview
+
+      This desktop pet is fully Python-based with no external game engine.
+
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_desktop_pet)
-
-
-      I’m a fan of pixel art, so I built a desktop pet based on my avatar to keep me company.
-
-      This is fully Python-based with no external game engine. 
       
 
-      **Pet behaviours**
+      ### Pet Behaviours
+
+      I designed and painted pixel animations: idle loops, interaction poses, expressions, and a set of behaviour variants.
+
+      To keep the pet believable, behaviours are state-driven and context-aware.
+      For example:
+      When the pet is focused on a task, interrupting it with food triggers annoyance.
+      Idle behaviours branch into multiple variants for natural randomness.
+      Hover, click, meal-time, and birthday states all drive specific reactions.
+
 
       ![](images/Pet.gif)
 
 
-      **Main code and animation state machine part**
+      ### Core System & Animation State Machine
 
-      I built designated UI, animation system, and configuration framework for it, allowing users to customize sleep time, meal time, and birthday greetings (which makes pet real).
+      Under the hood, the desktop pet runs on a custom framework that I engineered end-to-end:
+
+      Dedicated **UI** system (PyQt).
+      **Animation controller** with frame management, timing, and transitions.
+      Configurable **behaviour system** for sleep time, meal schedules, and birthday greetings.
+      **State machine** architecture coordinating hover, click, idle, sleep, and interaction logic.
+
 
       ![](images/Pet_Script.jpg)
 
 
       ![](images/Hair_Poster.jpg)
 
+      ### Overview
+
+      A Python-driven Kinematic hair-binding tool for Maya, designed to accelerate character production and remove repetitive manual setup.
+      It converts polygonal hair meshes into animation-ready joint chains with physics support, enabling fast iteration and predictable deformation.
+      
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_hair_rigging)
 
-      An auto hair-binding rigging tool for Maya.
-      The workflow breaks down into four core steps:
-      1. Convert the hair’s poly meshes into curves (the curves must be generated along the mesh’s central axis rather than on its surface.);
-      2. Rebuild those curves and generate joints along them;
-      3. Implement a kinetic hair physics system;
-      4. Skin the meshes to the joint chains.
+      ### Workflow and main code
+      The result is a production-ready solution that dramatically shortens rigging turnaround time while maintaining clean rig structure for animators.
 
+      The workflow moves through four core stages:
+      **Curve Extraction** – Convert the hair mesh into guide curves, aligned along the mesh’s central axis rather than surface flow.
+      **Curve Rebuild & Joint Generation** – Rebuild clean curve topology and procedurally generate joints along each strand.
+      **Kinematic Hair Physics System** – Build a lightweight physics hierarchy to drive secondary motion.
+      **Mesh Skinning** – Bind the hair meshes to their joint chains through a streamlined batch-skinning routine.
 
-      **Workflow and main code**
 
       ![](images/YJ_2.gif)
       ![](images/Hair_Script.jpg)
@@ -172,18 +224,34 @@ content:
     content: |
       ![](images/Punk_Poster.jpg)
 
-      This is a world-building concept set in a fantastical post-apocalyptic landscape. In this world, living creatures scavenge mechanical remnants scattered across the ruined world and graft them onto their own bodies. Over time, this behavior triggers species-wide mutation.
+      ### Overview
+
+      This project explores a biopunk world-building concept set in a fantastical post-apocalyptic landscape. 
+      In this universe, creatures survive by scavenging industrial remnants scattered across a ruined world and grafting them onto their own bodies. 
+      Over generations, this behavior drives species-wide mutation and gives rise to hybrid biomechanical organisms.
+
+      ### Map concept
+
+      This world sits in a post-industrial contamination era.
+      However, the pollution has been contained within a central floating island, restrained by a colossal ancient tree. 
+      Only three traversal routes connect the island to the surrounding continental plates.
 
 
-      **Hostile creature concept**
+      ![](images/Biopunk_3.jpg)
 
-      Design draft
 
+      ### Creature Concept(2D)
+
+      These organisms are not natural species, they are biomechanics.
+      Primitive biological forms scavenge mechanical debris, fuse it into their bodies, and undergo mutation driven by toxic residue and incompatible components.
+
+      
       ![](images/Biopunk_2.jpg)
 
-      **Creature concept**
 
-      Final design, through 3D modeling, rendering, and digital paint-over.
+      ### Creature Concept(3D)
+
+      The designs are further developed with ZBrush sculpting, rendering, and digital paint-over to explore material blending and functional detail.
 
       ![](images/Biopunk_1.jpg)
   - title: 3D Printing
@@ -191,8 +259,13 @@ content:
     content: |
       ![](images/Printing_Poster.jpg)
 
-      This character comes from the Chinese novel 'Shui Hu Zhuan' and is one of my favorites.
-      Complete end-to-end production: modeling, rendering, 3D printing, and hand-painting.
+      ### Overview
+
+      This character is inspired by a book called Shui Hu Zhuan (Water Margin).
+      The project covers a full end-to-end production pipeline: modeling, rendering, 3D printing, surface prep, and hand-painting.
+
+      The goal was to translate a traditional character into a stylized digital sculpt and a physical collectible while preserving character personality and historical aesthetics.
+
 
       ![](images/Printing.jpg)
   - title: Experience
@@ -246,18 +319,19 @@ content:
         title: Tongji University
         sub_title: Animation (BA)
         caption: 2019 - 2023
-        # quote: >
-        #   Short institution or course description (optional)
+        quote: >
+          Tongji University’s Animation program—rooted in a top global institution ranked QS Top 20 rigorous artistic and technical training across 2D/3D production.
         description: |
           Completed the Animation program at Tongji University with a GPA of 4.79/5, with coursework spanning acting, 2D and 3D animation, modeling, rendering, compositing, and sound design.
   - title: A Little More About Me
     layout: text
     content: |
       **My interests?**
-        – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
-        – Games (RPG and shooting).
-        – Strength training and anything that gets me outdoors.
-        – Sudoku.
+
+      – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
+      – Games (RPG and shooting).
+      – Strength training and anything that gets me outdoors.
+      – Sudoku.
       
 # Footer
 footer_show_references: true
