@@ -6,7 +6,7 @@ repository: ml_web
 version: 2
 
 # Personal info
-name: Huanhuan Chen (Milian)
+name: Huanhuan (Milian) Chen
 # title: Your job title
 email: miliuumeru@gmail.com
 # email_title: Email (Email title override)
@@ -55,10 +55,10 @@ about_content: |
   Half artist, half coder, obsessed with making something fun, impressive, and alive.
 
   Skills:
-    - Game Engines: Unreal, Unity, Snowdrop (Ubisoft)
-    - 3D DCC: Maya, 3ds Max
-    - 2D DCC: Clip Studio Paint, Photoshop
-    - Programming: Python (advanced), Qt (working knowledge), Maya API (working knowledge), C++ (basic familiarity)
+    - Game Engines: Unreal, Unity, Snowdrop(Ubisoft)
+    - 3D: Maya, 3ds Max
+    - 2D: Clip Studio Paint, Photoshop
+    - Programming: Python, Qt, Maya API, C++(basic familiarity)
 
 content:
   # - title: Projects
@@ -87,7 +87,7 @@ content:
       ![](images/SEED_Poster.jpg)
 
 
-      ### Overview
+      #### Overview
 
       It's a stylized 6-minute animation.
 
@@ -96,7 +96,7 @@ content:
       Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
 
-      ### Concept & Storyboard
+      #### Concept & Storyboard
 
       The project originated from a simple question: **how does an unlikely creature pursue flight?**
 
@@ -116,7 +116,7 @@ content:
       ![](images/SEED_6.jpg)
 
 
-      ### 3D Modelling & Rigging
+      #### 3D Modelling & Rigging
 
       Asset creation (characters, props, sets, etc) was executed end-to-end.
       Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
@@ -135,11 +135,14 @@ content:
       ![](images/SEED_9.jpg)
 
 
-      ### Animation & Compositing
+      #### Animation & Compositing
 
       Animation followed a disciplined production workflow:
+
       **Layout** – establish blocking, staging, and camera paths.
+
       **Blocking** – narrative beats, early body mechanics.
+
       **Polish** – final motion, emotional refinement.
 
       Simulation and FX elements were layered on top.
@@ -151,7 +154,7 @@ content:
       ![](images/SEED_12.gif)
 
 
-      ### Final Clips
+      #### Final Clips
 
       Selected frames and shots demonstrate the full animation.
 
@@ -164,34 +167,41 @@ content:
     content: |
       ![](images/Pet_Poster.jpg)
 
-      ### Overview
+      #### Overview
 
       This desktop pet is fully Python-based with no external game engine.
 
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_desktop_pet)
       
 
-      ### Pet Behaviours
+      #### Pet Behaviours
 
       I designed and painted pixel animations: idle loops, interaction poses, expressions, and a set of behaviour variants.
 
       To keep the pet believable, behaviours are state-driven and context-aware.
+
       For example:
+
       When the pet is focused on a task, interrupting it with food triggers annoyance.
+
       Idle behaviours branch into multiple variants for natural randomness.
+
       Hover, click, meal-time, and birthday states all drive specific reactions.
 
 
       ![](images/Pet.gif)
 
 
-      ### Core System & Animation State Machine
+      #### Core System & Animation State Machine
 
       Under the hood, the desktop pet runs on a custom framework that I engineered end-to-end:
 
       Dedicated **UI** system (PyQt).
+
       **Animation controller** with frame management, timing, and transitions.
+
       Configurable **behaviour system** for sleep time, meal schedules, and birthday greetings.
+      
       **State machine** architecture coordinating hover, click, idle, sleep, and interaction logic.
 
 
@@ -200,20 +210,25 @@ content:
 
       ![](images/Hair_Poster.jpg)
 
-      ### Overview
+      #### Overview
 
       A Python-driven Kinematic hair-binding tool for Maya, designed to accelerate character production and remove repetitive manual setup.
       It converts polygonal hair meshes into animation-ready joint chains with physics support, enabling fast iteration and predictable deformation.
       
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_hair_rigging)
 
-      ### Workflow and main code
+      #### Workflow and main code
+
       The result is a production-ready solution that dramatically shortens rigging turnaround time while maintaining clean rig structure for animators.
 
       The workflow moves through four core stages:
+
       **Curve Extraction** – Convert the hair mesh into guide curves, aligned along the mesh’s central axis rather than surface flow.
+      
       **Curve Rebuild & Joint Generation** – Rebuild clean curve topology and procedurally generate joints along each strand.
+      
       **Kinematic Hair Physics System** – Build a lightweight physics hierarchy to drive secondary motion.
+      
       **Mesh Skinning** – Bind the hair meshes to their joint chains through a streamlined batch-skinning routine.
 
 
@@ -224,13 +239,13 @@ content:
     content: |
       ![](images/Punk_Poster.jpg)
 
-      ### Overview
+      #### Overview
 
       This project explores a biopunk world-building concept set in a fantastical post-apocalyptic landscape. 
       In this universe, creatures survive by scavenging industrial remnants scattered across a ruined world and grafting them onto their own bodies. 
       Over generations, this behavior drives species-wide mutation and gives rise to hybrid biomechanical organisms.
 
-      ### Map concept
+      #### Map concept
 
       This world sits in a post-industrial contamination era.
       However, the pollution has been contained within a central floating island, restrained by a colossal ancient tree. 
@@ -240,7 +255,7 @@ content:
       ![](images/Biopunk_3.jpg)
 
 
-      ### Creature Concept(2D)
+      #### Creature Concept(2D)
 
       These organisms are not natural species, they are biomechanics.
       Primitive biological forms scavenge mechanical debris, fuse it into their bodies, and undergo mutation driven by toxic residue and incompatible components.
@@ -249,7 +264,7 @@ content:
       ![](images/Biopunk_2.jpg)
 
 
-      ### Creature Concept(3D)
+      #### Creature Concept(3D)
 
       The designs are further developed with ZBrush sculpting, rendering, and digital paint-over to explore material blending and functional detail.
 
@@ -259,7 +274,7 @@ content:
     content: |
       ![](images/Printing_Poster.jpg)
 
-      ### Overview
+      #### Overview
 
       This character is inspired by a book called Shui Hu Zhuan (Water Margin).
       The project covers a full end-to-end production pipeline: modeling, rendering, 3D printing, surface prep, and hand-painting.
@@ -326,12 +341,12 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-      **My interests?**
+      My interests?
 
-      – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
-      – Games (RPG and shooting).
-      – Strength training and anything that gets me outdoors.
-      – Sudoku.
+        – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
+        – Games (RPG and shooting).
+        – Strength training and anything that gets me outdoors.
+        – Sudoku.
       
 # Footer
 footer_show_references: true
