@@ -90,24 +90,17 @@ content:
 
       It's a stylized 6-minute animation.
 
-      Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512)
-
       Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
+      Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512).
 
       #### **Concept & Storyboard**
 
-      The project originated from a simple question: **how does an unlikely creature pursue flight?**
+      The project originated from a simple question: how does an unlikely creature pursue flight?
 
       I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
 
-      Key points:
-
-      **Character** exploration through sketches and turnarounds.
-
-      **Storyboards** to lock pacing and camera logic.
-
-      **Environmental** design for the ant’s complete living world.
+      Character, Storyboard, Environment.
 
 
       ![](images/SEED_4.jpg)
@@ -118,15 +111,9 @@ content:
       #### **3D Modelling & Rigging**
 
       Asset creation (characters, props, sets, etc) was executed end-to-end.
-      Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency.
+      Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency. Textures were hand-painted and stylized, inspired by Arcane.
 
-      Key points:
-
-      **Modelling** pipeline for protagonist and secondary assets.
-
-      Custom characters **riggging** with clean deformation and utility modules.
-
-      Hand-painted stylized **textures**, inspired by __Arcane__.
+      Modelling, Riggging, Textures.
 
 
       ![](images/SEED_7.jpg)
@@ -136,16 +123,13 @@ content:
 
       #### **Animation & Compositing**
 
-      Animation followed a disciplined production workflow:
-
-      **Layout** – establish blocking, staging, and camera paths.
-
-      **Blocking** – narrative beats, early body mechanics.
-
-      **Polish** – final motion, emotional refinement.
+      Animation followed a disciplined production workflow: Layout, Blocking, Polish.
 
       Simulation and FX elements were layered on top.
+
       All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
+
+      Animation, Simulation, Compositing.
 
 
       ![](images/SEED_10.gif)
@@ -195,17 +179,16 @@ content:
 
       Under the hood, the desktop pet runs on a custom framework that I engineered end-to-end:
 
-      Dedicated **UI** system (PyQt).
+      Dedicated UI system (PyQt).
 
-      **Animation controller** with frame management, timing, and transitions.
-
-      Configurable **behaviour system** for sleep time, meal schedules, and birthday greetings.
+      Configurable behaviour system for sleep time, meal schedules, and birthday greetings.
       
-      **State machine** architecture coordinating hover, click, idle, sleep, and interaction logic.
+      State machine architecture coordinating hover, click, idle, sleep, and interaction logic.
 
 
       ![](images/Pet_Script.jpg)
 
+      ___
 
       ![](images/Hair_Poster.jpg)
 
@@ -222,13 +205,13 @@ content:
 
       The workflow moves through four core stages:
 
-      **Curve Extraction** – Convert the hair mesh into guide curves, aligned along the mesh’s central axis rather than surface flow.
+      Curve Extraction – Convert the hair mesh into guide curves, aligned along the mesh’s central axis rather than surface flow.
       
-      **Curve Rebuild & Joint Generation** – Rebuild clean curve topology and procedurally generate joints along each strand.
+      Curve Rebuild & Joint Generation – Rebuild clean curve topology and procedurally generate joints along each strand.
       
-      **Kinematic Hair Physics System** – Build a lightweight physics hierarchy to drive secondary motion.
+      Kinematic Hair Physics System – Build a lightweight physics hierarchy to drive secondary motion.
       
-      **Mesh Skinning** – Bind the hair meshes to their joint chains through a streamlined batch-skinning routine.
+      Mesh Skinning – Bind the hair meshes to their joint chains through a streamlined batch-skinning routine.
 
 
       ![](images/YJ_2.gif)
@@ -299,7 +282,7 @@ content:
 
       - layout: left
         title: UBISOFT SHANGHAI
-        sub_title: Junior Rigger
+        sub_title: Rigger / Technical Animator
         caption: 2023.8 — 2025.4
         link: https://www.ubisoft.com/en-us/company/careers/locations/shanghai
         quote: >
@@ -317,7 +300,7 @@ content:
           Pipeline tools coding.
       - layout: left
         title: HYPERGRYPH
-        sub_title: Intern CFX
+        sub_title: CFX Intern
         caption: 2022.6 —​ 2022.12
         link: https://www.hypergryph.com/
         quote: >
@@ -340,7 +323,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-      My interests?
+      **My interests?**
 
       – Rock ’n’ roll and bass guitar (RHCP hell yes!!).
 
