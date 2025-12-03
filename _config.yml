@@ -81,26 +81,22 @@ content:
   #         ww
   #       description: | # this will include new lines to allow paragraphs
   #         Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
-  - title: Personal Animation <SEED>
+  - title: Personal Animation
     layout: text
     content: |
       ![](images/SEED_Poster.jpg)
 
       #### **Overview**
 
-      It's a stylized 6-minute animation.
-
-      Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
+      It's a stylized 6-minute animation. Created with Maya + RenderMan mainly. All visuals crafted independently; music composed collaboratively.
 
       Watch it on [**YouTube**](https://youtu.be/9jc6oblx0aY) or [**Vimeo**](https://vimeo.com/1137545512).
 
       #### **Concept & Storyboard**
 
-      The project originated from a simple question: how does an unlikely creature pursue flight?
+      The project started from a simple question: how does an unlikely creature want to fly?
 
-      I built the narrative around an ant—an improbable flyer—then developed the full ecosystem around it: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
-
-      Character, Storyboard, Environment.
+      I built the narrative around an ant, then developed the full ecosystem: blue-tree forests, walnut-house interiors, and daily-life vignettes that support the emotional arc.
 
 
       ![](images/SEED_4.jpg)
@@ -110,10 +106,7 @@ content:
 
       #### **3D Modelling & Rigging**
 
-      Asset creation (characters, props, sets, etc) was executed end-to-end.
-      Rigging is my core competency, so character and prop rigs were designed for reliability, deformation quality, and animation efficiency. Textures were hand-painted and stylized, inspired by Arcane.
-
-      Modelling, Riggging, Textures.
+      Asset creation (characters, props, sets, etc) was done in Maya. Character and prop rigs were designed for deformation quality, and animation efficiency. Textures were hand-painted and stylized, inspired by Arcane.
 
 
       ![](images/SEED_7.jpg)
@@ -123,13 +116,7 @@ content:
 
       #### **Animation & Compositing**
 
-      Animation followed a disciplined production workflow: Layout, Blocking, Polish.
-
-      Simulation and FX elements were layered on top.
-
-      All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
-
-      Animation, Simulation, Compositing.
+      Animation workflow: layout, blocking, polish. Then the simulation and 2D FX elements. All shots were finalized in Nuke, where lighting, and compositing pulled the look together.
 
 
       ![](images/SEED_10.gif)
@@ -139,16 +126,17 @@ content:
 
       #### **Final Clips**
 
-      Selected frames and shots demonstrate the full animation.
+      Final shots demonstration.
 
 
       ![](images/SEED_1.gif)
       ![](images/SEED_2.gif)
       ![](images/SEED_3.gif)
-  - title: Scripts
+  - title: Script
     layout: text
     content: |
       ![](images/Pet_Poster.jpg)
+
 
       #### **Overview**
 
@@ -159,9 +147,7 @@ content:
 
       #### **Pet Behaviours**
 
-      I designed and painted pixel animations: idle loops, interaction poses, expressions, and a set of behaviour variants.
-
-      To keep the pet believable, behaviours are state-driven and context-aware.
+      I designed and painted pixel animations: idle loops, interactions, expressions, and behaviour variants. To keep the pet believable, behaviours are state-driven and context-aware.
 
       For example:
 
@@ -177,33 +163,24 @@ content:
 
       #### **Core System & Animation State Machine**
 
-      Under the hood, the desktop pet runs on a custom framework that I engineered end-to-end:
-
-      Dedicated UI system (PyQt).
-
-      Configurable behaviour system for sleep time, meal schedules, and birthday greetings.
-      
-      State machine architecture coordinating hover, click, idle, sleep, and interaction logic.
+      The desktop pet runs on a custom framework that I engineered end-to-end in Python: configurable behaviour system, animation state machine and UI system (PyQt).
 
 
       ![](images/Pet_Script.jpg)
-
-      ___
-
+  - title: Tool
+    layout: text
+    content: |
       ![](images/Hair_Poster.jpg)
 
       #### **Overview**
 
-      A Python-driven Kinematic hair-binding tool for Maya, designed to accelerate character production and remove repetitive manual setup.
-      It converts polygonal hair meshes into animation-ready joint chains with physics support, enabling fast iteration and predictable deformation.
+      A Python-driven kinematic hair-binding tool for Maya, designed to accelerate character production and remove repetitive manual setup.
       
       Source code on [**GitHub**](https://github.com/miliuumeru/ml_hair_rigging)
 
       #### **Workflow and main code**
 
-      The result is a production-ready solution that dramatically shortens rigging turnaround time while maintaining clean rig structure for animators.
-
-      The workflow moves through four core stages:
+      Core stages:
 
       Curve Extraction – Convert the hair mesh into guide curves, aligned along the mesh’s central axis rather than surface flow.
       
@@ -216,22 +193,18 @@ content:
 
       ![](images/YJ_2.gif)
       ![](images/Hair_Script.jpg)
-  - title: Modeling & Rendering
+  - title: Concept Design
     layout: text
     content: |
       ![](images/Punk_Poster.jpg)
 
       #### **Overview**
 
-      This project explores a biopunk world-building concept set in a fantastical post-apocalyptic landscape. 
-      In this universe, creatures survive by scavenging industrial remnants scattered across a ruined world and grafting them onto their own bodies. 
-      Over generations, this behavior drives species-wide mutation and gives rise to hybrid biomechanical organisms.
+      This project explores a biopunk world-building concept set in a fantastical post-apocalyptic landscape.
+
+      In this universe, creatures survive by scavenging industrial remnants scattered across a ruined world and grafting them onto their own bodies. Over generations, this behavior drives species-wide mutation and gives rise to hybrid biomechanical organisms.
 
       #### **Map concept**
-
-      This world sits in a post-industrial contamination era.
-      However, the pollution has been contained within a central floating island, restrained by a colossal ancient tree. 
-      Only three traversal routes connect the island to the surrounding continental plates.
 
 
       ![](images/Biopunk_3.jpg)
@@ -239,22 +212,81 @@ content:
 
       #### **Creature Concept(2D)**
 
-      These organisms are not natural species, they are biomechanics.
-      Primitive biological forms scavenge mechanical debris, fuse it into their bodies, and undergo mutation driven by toxic residue and incompatible components.
-
       
       ![](images/Biopunk_2.jpg)
 
 
       #### **Creature Concept(3D)**
 
-      The designs are further developed with ZBrush sculpting, rendering, and digital paint-over to explore material blending and functional detail.
 
       ![](images/Biopunk_1.jpg)
+  - title: Concept Design
+    layout: text
+    content: |
+      ![](images/Con_Poster.jpg)
+
+
+      #### **Overview**
+      The protagonist is a human child, who was adopted by a community of "Thorns". Through Tarquin’s encounters with the "Thorns"—creatures who looks gentle can become dangerous, she gradually uncovers the reality behind appearances.
+
+
+      ![](images/mr_1.jpg)
+
+
+      ![](images/mr_2.png)
+
+
+      ![](images/mr_3.jpg)
+  - title: Concept Design
+    layout: text
+    content: |
+      ![](images/Con_Poster_2.jpg)
+
+
+      #### **Overview**
+
+      A small town inhabited by worms who live peaceful, contented lives. 
+
+
+      ![](images/Worm_town.jpg)
+
+
+      ![](images/Worm_town_2.jpg)
+  - title: Character Design
+    layout: text
+    content: |
+      ![](images/Chara_Poster.jpg)
+
+
+      #### **Overview**
+
+      Aili and Devin are police partners and ... soulmates.
+
+      Aili is impulsive and high-strung, acting before she thinks and showing no emotion.
+
+      Devin, a bird-folk boy who wears every feeling on his face, constantly worries about her.
+
+
+      ![](images/B&G.jpg)
+  - title: Character Design
+    layout: text
+    content: |
+      ![](images/Chara_Poster_2.jpg)
+
+
+      #### **Overview**
+
+      Doom is a demon that exists beyond human awareness. It appears only when people let their guard down, slipping in to steal their clarity of mind.
+
+      For those it captures, Doom forcibly pries open their consciousness—not harming their physical body, but stoling their sanity. After losing sense of reason, victims often make foolish choices they later regret.
+      
+      
+      ![](images/des_1.jpg)
   - title: 3D Printing
     layout: text
     content: |
       ![](images/Printing_Poster.jpg)
+
 
       #### **Overview**
 
