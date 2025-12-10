@@ -55,35 +55,16 @@ about_content: |
   Half artist, half coder, obsessed with making something fun, impressive, and alive.
 
   Skills:
-    - Game Engines: Unreal, Unity, Snowdrop(Ubisoft)
-    - 3D: Maya, 3Ds Max
-    - 2D: Clip Studio Paint, Photoshop
-    - Programming: Python, Qt, Maya API, C++(basic familiarity)
-
-  Showreel:
-    [**Link**](https://vimeo.com/1144815402)
+    - Rigging (characters, creatures, FACS-based expressions)
+    - Animation Retargeting
+    - In-engine Behavior Systems
+    - Rigging and animation tool/pipeline development (Python, Qt, Maya API)
 
 content:
-  # - title: Projects
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
-  #                     # other value (or no value) means no border will be displayed
-  #       title: Personal Animation <SEED>
-  #       # link: https://youtu.be/9jc6oblx0aY
-  #       # link_text: Watch it on YouTube
-  #       additional_links:
-  #         - title:  YouTube page for project
-  #           icon: fab fa-youtube
-  #           url: https://youtu.be/9jc6oblx0aY
-  #         - title:  Vimeo page for project
-  #           icon: fab fa-vimeo
-  #           url: https://vimeo.com/1137545512
-  #       quote: |
-  #         ww
-  #       description: | # this will include new lines to allow paragraphs
-  #         Created with Maya and RenderMan. All visuals were crafted by me, and the music was composed by a friend.
+  - title: Showreel
+    layout: text
+    content: |
+        2025 rigging and animation showreel: [**Link**](https://vimeo.com/1144815402)
   - title: Personal Animation
     layout: text
     content: |
@@ -306,6 +287,10 @@ content:
 
 
       ![](images/Printing.jpg)
+  - title: Artwork
+    layout: text
+    content: |
+      ![](images/artwork.jpg)
   - title: Experience
     layout: list
     content:
